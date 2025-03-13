@@ -53,7 +53,7 @@ public class GameManager : Singleton<GameManager>
         gameAction.DelayAction(() =>
         {
             StartSpawnClient();
-        }, 1);
+        }, 1.2f);
      
         StartUpdateUI();
     }
